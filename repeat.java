@@ -31,19 +31,20 @@ public class repeat {
 						if(p1<p2)
 						{
 							System.out.println(x[p1]);
+						i=n;
+						break;
 						}
 						else
-						{
+						{  
 							System.out.println(x[p2]);
-						}	
-						
+						i=n;
+						break;
+						}		
 					}
-					else
-					{
-						System.out.println(x[p1]);
-					}
+					
 				}
 			}
+			
 		}
 	}
 }
